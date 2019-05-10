@@ -1,7 +1,7 @@
 module.exports = {
   title: '随笔',
   description: '一些前端笔记',
-  base: '/Vuepress-Blog/',
+  base: '/vuepress-blog/',
   dest: 'docs',
   home: true,
   head: [
