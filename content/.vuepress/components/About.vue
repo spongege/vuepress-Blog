@@ -1,0 +1,69 @@
+<template>
+  <div class="container">
+    <div class="desc-box">
+      <div class="desc-name">
+        <img src="https://avatars1.githubusercontent.com/u/35484453?s=460&v=4">
+      </div>
+      <div class="desc-text">
+        <p>
+          <span>大名：</span>fengzhonghui
+        </p>
+        <p>
+          <span>小名：</span>sponge
+        </p>
+        <p>
+          <span>职业：</span>前端工程师
+        </p>
+        <p>
+          <span>求职：</span>如果你能提供一份上海不错的前端岗位机会，
+          <a target="_blank" href="mailto:1192454949@qq.com">可以联系我的邮箱</a>
+        </p>
+        <p>
+          <a target="_blank" href="https://github.com/spongege">Github</a>
+          <a target="_blank" href="https://juejin.im/user/5af2feb4f265da0b8070bc60">掘金</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+.container {
+  width: 960px;
+  padding: 40px 0;
+  margin-left: -110px;
+}
+
+.container .desc-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 2px 10px 0 #e3e7f6;
+  border-radius: 4px;
+}
+
+
+.container .desc-box:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.container .desc-box .desc-name {
+  width: 100px;
+  margin-right: 20px;
+  padding: 20px;
+  text-align: center;
+  border-right: 1px solid #e4e4e4;
+}
+.container .desc-box .desc-name img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+.container .desc-box .desc-text p {
+  margin: 5px;
+}
+</style>
