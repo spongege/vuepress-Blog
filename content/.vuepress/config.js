@@ -13,7 +13,7 @@ module.exports = {
       }
     ]
   ],
-  ga: '', //谷歌id
+  ga: 'UA-140141424-1', //谷歌id
   serviceWorker: true,
   themeConfig: {
     // sidebarDepth:2,
