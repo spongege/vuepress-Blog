@@ -21,87 +21,99 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "55881cfd70b9ea4e97b120445f94322e"
+    "revision": "d4357fb0413b690cee78e0eed8b8a6b3"
   },
   {
     "url": "about.html",
-    "revision": "2f08981749c57830b0f6714e6960db67"
+    "revision": "cbcccf7ff9108471825912a683a15032"
   },
   {
     "url": "assets/css/0.styles.5d74642e.css",
     "revision": "754c2cddfe9a26737fc249d6ed09ef60"
   },
   {
+    "url": "assets/img/hero.02dea6b2.jpg",
+    "revision": "02dea6b2c3d2cfd099f66d26cf218d72"
+  },
+  {
     "url": "assets/img/search.83621669.svg",
     "revision": "83621669651b9a3d4bf64d1a670ad856"
   },
   {
-    "url": "assets/js/10.f9a6b768.js",
-    "revision": "01241a05c00179b93fd65d4ca6d37116"
+    "url": "assets/js/10.1eb10113.js",
+    "revision": "11c7e022d249a69464ea157ea254da40"
   },
   {
-    "url": "assets/js/11.d8b55b3d.js",
-    "revision": "46ab43f5ccbf7a5e51ec3450b61023e7"
+    "url": "assets/js/11.013fc9ee.js",
+    "revision": "b793820e7c5e89afee2981341c7c5a1b"
   },
   {
-    "url": "assets/js/2.86eb4ff0.js",
-    "revision": "357c6a83e99b1b81ad4db9906344ba61"
+    "url": "assets/js/12.9dafc267.js",
+    "revision": "35389e52dd474c44294eb16c3f8c5473"
   },
   {
-    "url": "assets/js/3.0f79bc30.js",
-    "revision": "b1cde1ea036dc850beded2ef3db5946c"
+    "url": "assets/js/2.2e3e2c34.js",
+    "revision": "04ff5026464761bebcb7a4a54bf8644b"
   },
   {
-    "url": "assets/js/4.324d3886.js",
-    "revision": "0670d6b8da1422958bbc7b0ea73d0dec"
+    "url": "assets/js/3.dc26014a.js",
+    "revision": "087b109ee5a35ba29bc2fc6f7b4dd445"
   },
   {
-    "url": "assets/js/5.91298cc6.js",
-    "revision": "ce70873f5120c5b03565d9b0348e08a7"
+    "url": "assets/js/4.3613c063.js",
+    "revision": "7c14dd2b64aa1813d11443f8b8a0e17b"
   },
   {
-    "url": "assets/js/6.6f9a99d1.js",
-    "revision": "638773abc55244caf79438cfb512a84d"
+    "url": "assets/js/5.bb0bec76.js",
+    "revision": "cdf162a8fe516b175bac6ca6202bdd99"
   },
   {
-    "url": "assets/js/7.0371d89d.js",
-    "revision": "7f0503908e5adec515d123353162f5ff"
+    "url": "assets/js/6.d23b7b72.js",
+    "revision": "cf8fc4d1bc4f52740fab4ab53f64e5cc"
   },
   {
-    "url": "assets/js/8.974c8d4e.js",
-    "revision": "201b657cd8997cc549d6959e76d014a5"
+    "url": "assets/js/7.7fe27af3.js",
+    "revision": "1b349d77cc124e27819a18b9335bb47f"
   },
   {
-    "url": "assets/js/9.25d64890.js",
-    "revision": "a2f5413e56932c91d118408ca4ea13a3"
+    "url": "assets/js/8.68f18bb7.js",
+    "revision": "1e64424d8254ac95506502c7f91d0dd0"
   },
   {
-    "url": "assets/js/app.fcba0aec.js",
-    "revision": "a5765fac1443d0e6596bc070fca50c12"
+    "url": "assets/js/9.849d7c8e.js",
+    "revision": "a6bd9bec321f6f3eca839aeb49a2379c"
+  },
+  {
+    "url": "assets/js/app.f79a0e15.js",
+    "revision": "36684f39d2cf9aa33a067a84a95707eb"
   },
   {
     "url": "contact.html",
-    "revision": "4c27385e82b0c9aa5ca69be97775900e"
+    "revision": "436fa2c62612b024938d1aa74e441b8e"
   },
   {
     "url": "index.html",
-    "revision": "ba06ee355db948e205ddd4d098ec43f8"
+    "revision": "e0dd5589ae66115e39ef4207e653c334"
   },
   {
-    "url": "tips/a.html",
-    "revision": "dfdf66733fdd429ffddbac40d78aa883"
+    "url": "jsNotes/arrSort.html",
+    "revision": "a1405469f6670476a2c551362757d82f"
+  },
+  {
+    "url": "jsNotes/index.html",
+    "revision": "4205f36179fc5b8288ee2f5c7336dd7c"
+  },
+  {
+    "url": "jsNotes/reg.html",
+    "revision": "47f41caf971c4420a0da6c6f063492ef"
+  },
+  {
+    "url": "tips/arrSort.html",
+    "revision": "92a4985c9c1452d93261d1558c1e5ea3"
   },
   {
     "url": "tips/index.html",
-    "revision": "fe6ff6c8571c29120fae6b2116a4ca52"
-  },
-  {
-    "url": "web/a.html",
-    "revision": "693f05e75f158cbdaa9e99983663ec7f"
-  },
-  {
-    "url": "web/index.html",
-    "revision": "1de6665874782db68e815f18c368356e"
+    "revision": "cba5689fc417a055a3c7354658712dc5"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

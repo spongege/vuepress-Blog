@@ -1,6 +1,6 @@
 module.exports = {
-  title: '随笔',
-  description: '一些前端笔记',
+  title: 'sponge',
+  description: '一些很随意的前端笔记',
   base: '/vuepress-blog/',
   dest: 'docs',
   home: true,
@@ -9,7 +9,7 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: 'https://avatars1.githubusercontent.com/u/35484453?s=460&v=4'
+        href: ''
       }
     ]
   ],
@@ -21,8 +21,8 @@ module.exports = {
       {
         text: '前端技术栈',
         items: [
-          { text: '汇总', link: '/web/a' },
-          { text: '小记', link: '/tips/a' }
+          { text: '笔记', link: '/jsNotes/reg' },
+          { text: '其他', link: '/tips/arrSort' }
         ]
       },
 
@@ -30,16 +30,16 @@ module.exports = {
       { text: 'GitHub', link: 'https://github.com/spongege' }
     ],
     sidebar: {
-      '/web/': [
+      '/jsNotes/': [
         {
-          title: 'web',
-          children: ['a']
+          title: 'jsNotes',
+          children: ['reg', 'arrSort']
         }
       ],
       '/tips/': [
         {
           title: 'tips',
-          children: ['a']
+          children: ['arrSort']
         }
       ]
     }
