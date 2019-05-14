@@ -4,9 +4,7 @@ module.exports = {
   base: '/vuepress-blog/',
   dest: 'docs',
   home: true,
-  head: [
-    ["link", { rel: "icon", href: "/hero.jpg" }]
-  ],
+  head: [['link', { rel: 'icon', href: '/hero.jpg' }]],
   ga: 'UA-140141424-1', //谷歌id
   serviceWorker: true,
   themeConfig: {
@@ -15,7 +13,7 @@ module.exports = {
       {
         text: '前端技术栈',
         items: [
-          { text: '笔记', link: '/jsNotes/reg' },
+          { text: '笔记', link: '/jsNotes/reflow' },
           { text: '其他', link: '/tips/arrSort' }
         ]
       },
@@ -27,7 +25,7 @@ module.exports = {
       '/jsNotes/': [
         {
           title: 'jsNotes',
-          children: ['reg', 'arrSort']
+          children: ['reflow', 'reg', 'arrSort']
         }
       ],
       '/tips/': [
