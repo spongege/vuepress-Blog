@@ -3,7 +3,7 @@
 set -e
 
 npm run docs:build
-cp {favicon.ico,CNAME,hero.jpg} docs/
+cp {CNAME,favicon.ico,hero.jpg} docs/
 git add -A
-git commit -m '解决favicon和头像不显示 增加谷歌分析id'
+git commit -m '删除 .vuepress/assets'
 git push 

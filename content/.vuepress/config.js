@@ -5,13 +5,7 @@ module.exports = {
   dest: 'docs',
   home: true,
   head: [
-    [
-      'link',
-      {
-        rel: 'icon',
-        href: ''
-      }
-    ]
+    ["link", { rel: "icon", href: "/hero.jpg" }]
   ],
   ga: 'UA-140141424-1', //谷歌id
   serviceWorker: true,
